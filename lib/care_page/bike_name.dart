@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/svg.dart';
 import 'package:ride_sharing_app/theme/app_text_style.dart';
 
 class BikeName extends StatefulWidget {
