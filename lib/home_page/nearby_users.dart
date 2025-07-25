@@ -46,6 +46,7 @@ class _NearbyUsersState extends State<NearbyUsers> {
               Expanded(
                 child: SingleChildScrollView(
                   scrollDirection: Axis.horizontal,
+                  physics: BouncingScrollPhysics(),
                   child: Row(
                     children: widget.nearbyUsers.map((nearbyUser) {
                       return Padding(
